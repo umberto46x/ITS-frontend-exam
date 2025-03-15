@@ -1,0 +1,98 @@
+
+
+// NAVBAR
+.nav__logo{
+        width: 47px;
+        height: 30px;
+
+}
+
+
+// HERO
+
+.header__hero{
+        height: 100vh;
+       
+} 
+
+// ANCHOR LINK TORNA SU
+
+.goUp{
+
+        width: 8vw;
+        height: 6vh;   
+        img{
+                width: 20px;
+                height: 20px;
+        }
+}
+
+
+
+// SERVICES
+
+.service__icon{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+        svg{
+                width: 20px;
+                height: 20px;
+        }
+}
+
+.divisor{
+        height: 0.1px;
+}
+
+// ARTICLES
+
+.articles .article{
+        height: 65vh;
+}
+
+
+
+.article img {
+        max-height: 245px;
+        min-width: 100%;
+        
+}
+
+
+
+// FEATURED WORKS SECTION
+
+.mini__img{
+
+        min-height: 255px;
+}
+
+.big__img{
+
+        min-height: 540px;
+}
+
+// MANAGEMENT TEAM SECTION
+
+.card__img1,.card__img2,.card__img3,.card__img4{
+        width: 100%;
+        height: 260px;
+}
+
+// FOOTER
+
+.newsletter{
+
+        .input-group{
+                width: 75%;
+        }
+        button{
+                width: 50px;
+
+                svg{
+                        color: white;
+                }
+        }
+}

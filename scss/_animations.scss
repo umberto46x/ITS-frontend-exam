@@ -1,0 +1,301 @@
+
+
+// KEYFRAMES
+
+
+@keyframes loadingOpacity{
+
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+
+
+// ANIMATIONS
+
+// GLOBAL
+
+body{
+    
+    animation:loadingOpacity normal ;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+// NAVBAR
+
+.nav__button1,.nav__button2{
+    &:hover{
+        color: white;
+        background-color: $orange;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+// HEADER
+
+.header__hero{
+
+  
+
+    h1{
+        animation:loadingOpacity normal;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        
+        
+    }
+    p{
+        animation:loadingOpacity normal;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        
+       
+
+    }
+    button{
+        animation:loadingOpacity normal;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        
+        
+
+    }
+
+    
+
+   
+
+   
+
+}
+
+// ANCHOR LINK GO UP
+
+.goUp:hover{
+    background-color: white;
+    color: $black;
+    
+}
+
+// SERVICES
+.services{
+
+
+    .service:nth-of-type(1){
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    .service:nth-of-type(2){
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    .service:nth-of-type(3){
+        transform: translateY(100px);
+        opacity: 0;
+
+    }
+    .service:nth-of-type(4){
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+}
+
+.services:hover{
+    .service:nth-of-type(1){
+        transform: translateX(0);
+        opacity: 1;
+        transition: all 1s ease-in-out;
+    }
+    .service:nth-of-type(2){
+        transform: translateY(0);
+        opacity: 1;
+        transition: all 1s ease-in-out;
+    }
+    .service:nth-of-type(3){
+        transform: translateY(0);
+        opacity: 1;
+        transition: all 1s ease-in-out;
+    }
+    .service:nth-of-type(4){
+        transform: translateX(0);
+        opacity: 1;
+        transition: all 1s ease-in-out;
+    }
+}
+
+// ARTICLES
+
+
+    .article:hover{
+
+
+        transform: translateY(-25px);
+        transition: all 0.5s ease-in-out;
+        box-shadow: 0px 5px 10px ;
+
+        h3{
+            color: $orange;
+            transition: all 0.5s ease-in-out;
+        }
+
+        button{
+            box-shadow: 0px 3px $orange ;
+            transition: all 0.5s;
+
+        }
+
+        .article__img1,.article__img2,.article__img3{
+
+            transform: scale(1.05);
+            transition: all 0.7s;
+        }
+
+    }
+
+// VIDEO SECT
+
+.videoSection{
+    button:hover{
+        background-color: white;
+        color: $black;
+        transition: all 0.5s ease-in-out;
+    
+    }
+
+    .col-md-4:nth-of-type(2) .video__box:nth-of-type(1){
+        transform: translateY(-100px);
+        opacity: 0;
+        
+    }
+    .col-md-4:nth-of-type(2) .video__box:nth-of-type(2){
+        transform: translateY(100px);
+        opacity: 0;
+    } 
+    
+
+    .video__box:hover{
+        border-color: lighten($color: $grey, $amount: 50) ;
+        transition: all 0.5s  ;
+    }
+}
+
+.videoSection:hover{
+    .col-md-4:nth-of-type(2) .video__box:nth-of-type(1){
+        transform: translateY(0px);
+        opacity: 1;
+        transition: transform 1s ease-in-out;
+        
+    }
+    .col-md-4:nth-of-type(2) .video__box:nth-of-type(2){
+        transform: translateY(0px);
+        opacity: 1;
+        transition: transform 1s ease-in-out;
+    } 
+}
+
+    
+// FEATURED WORKS SECT
+
+.featuredWorks{
+
+    .mini__img,.big__img{
+
+        
+        &:hover{
+            cursor: crosshair;
+            transform: scale(1.1);
+            filter: brightness(50%);
+            transition: all 0.3s ease-in-out;
+            
+        
+    }
+}
+
+}
+
+
+// MANAGEMENT TEAM SECT
+
+.managementTeam__card:hover{
+
+
+    transform: translateY(-15px);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 5px 10px ;
+
+}
+
+// PARALLAX SECT
+
+.parallax,.header__hero{
+    button:hover{
+        background-color: white;
+        color: $black;
+        transition: all 0.5s ease-in-out;
+    
+    }
+}
+
+// FOOTER
+
+.footer__top{
+
+    button:hover{
+
+        
+            background-color: $orange;
+            color: white;
+            transition: all 0.5s ease-in-out;
+
+       
+    }
+}
+
+.footer__middle{
+
+    a:hover{
+        color: white;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    button:hover{
+        background-color: lighten($color: $footerSubmit, $amount: 10);
+        transition: all 0.2s ease-in-out;
+
+    }
+}

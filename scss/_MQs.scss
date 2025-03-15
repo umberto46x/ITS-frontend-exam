@@ -1,0 +1,145 @@
+
+
+
+
+
+
+@media (min-width:768px){
+
+   .goUp{
+      width: 5vw;
+      height: 6vh;
+   }
+
+   .nav__button1{
+      margin-left: 25rem;
+   }
+
+   .articles .article{
+      height: 60vh;
+      }
+
+
+
+   .featuredWorks,.managementTeam,.carouselBlock,.parallax,.videoSection .row{
+
+      h2{
+         font-size: 40px;
+           }
+
+   }
+
+
+
+}
+
+
+@media (min-width:1024px){
+
+   .goUp{
+      width: 3vw;
+      height: 6vh;
+   }
+
+   .nav__button1{
+      display: none;
+   }
+
+   .nav__button2{
+      display:inline-block;
+     
+   }
+
+   .header__hero{
+      padding: 0rem 1.5rem;
+
+      h1{
+         font-size: 60px;
+     
+     }
+
+     .span__hero{
+      display: block;
+     }
+ 
+    
+   }
+
+   .articles .article{
+      height: 70vh;
+}
+
+.featuredWorks{
+
+   .mini__img1,.mini__img3{
+      margin-left: 3vw;
+   }
+
+
+}
+
+.managementTeam,.featuredWorks,.carouselBlock{
+   p{
+      font-size: 18px;
+        }
+}
+
+.parallax{
+   padding-left: 20vw;
+   padding-right:20vw  ;
+}
+
+
+
+.footer__top{
+
+      h2{
+         text-align: left;
+         display: inline-block;
+         
+      }
+      
+       button.btn__footer{
+         margin: 0 ;
+         
+         
+      }
+
+}
+  
+  
+}
+
+@media (min-width:1440px){
+
+
+ 
+
+ .navbar__container{
+
+    margin: 0 10rem;
+ } 
+
+ .header__hero{
+   padding: 0rem 10rem;
+ }
+
+ .articles .article{
+   height: 70vh;
+}
+
+.videoSection{
+   padding: 10vh 12vw;
+
+   .video__box{
+      width: 120px;
+      height: 150px;
+   }
+}
+
+.parallax{
+   padding-left: 25vw;
+   padding-right:25vw  ;
+}
+
+}

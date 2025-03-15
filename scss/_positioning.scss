@@ -1,0 +1,269 @@
+
+
+
+// BUTTONS
+
+.videoSection,.modal-footer,.parallax{
+
+  .btn,button{
+    padding: 12px 36px;
+}
+
+}
+
+
+ // NAV
+
+ .nav__button2{
+    margin-left: 2rem;
+    display: none;
+ }
+
+ .nav__button1{
+    margin-left: 3rem;
+ }
+
+ // HERO
+
+ .header__hero{
+    background-image: url(../img/header-img.jpg);
+    background-position: center;
+    background-size: cover;
+
+    button{
+      padding: 12px 36px;
+      border: none;
+    }
+
+    
+ }
+
+ // ANCHOR LINK TORNA SU
+
+ .goUp{
+  border: 0.5px solid $grey;
+  padding: 20px 20px;
+  position: fixed;
+  z-index: 3;
+  bottom: 0;
+  right: 0;
+  margin-right: 25px;
+  margin-bottom: 25px;
+
+ }
+
+
+ // SERVICES
+
+ .services{
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+ }
+
+ .divisor{
+  border-top: 0.1px solid lighten($darkGrey, 50) ;
+}
+
+ // ARTICLES
+
+ .articles{
+   margin-bottom: 15vh;
+   margin-top: 15vh;
+ }
+
+ .article{
+   border: 0.5px solid lighten($darkGrey, 50);
+   border-radius: 5px;
+   margin-bottom: 10vh;
+   overflow: hidden;
+ }
+
+
+ 
+ .article__img1{
+   background-image: url(../img/article1.jpg);
+   @include articleImg();
+}
+
+ .article__img2{
+   background-image: url(../img/article2.png);
+   @include articleImg();
+ }
+ .article__img3{
+   background-image: url(../img/article3.jpg);
+   @include articleImg();
+ }
+
+ // VIDEO SECTION
+
+ .videoSection{
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+  rgba(0, 0, 0, 0.7)), url(../img/tractor.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 15vh;
+  margin-top: 10vh;
+   video{
+    z-index: 1;
+    filter: brightness(30%);
+    
+    
+    
+  }
+
+  
+
+  .overlay{
+   
+    position: relative;
+    z-index: 2;
+    
+  }
+
+
+   
+
+    .video__box{
+      padding: 30px 15px;
+      border: 0.5px solid $grey ;
+      border-radius: 5px;
+      
+    }
+  }
+
+ // FEATURES WORKS SECTION
+
+ .featuredWorks{
+    margin-bottom: 15vh;
+    margin-top: 20vh;
+
+   
+ }
+
+ .big__img{
+  @include imgSet("../img/fw1.jpg");
+  margin-bottom: 6vh
+ }
+
+ .mini__img:nth-of-type(1){
+  @include imgSet("../img/fw2.jpg");
+  margin-bottom: 6vh
+  
+
+ }
+
+ .mini__img:nth-of-type(2){
+  @include imgSet("../img/fw3.jpg");
+  margin-bottom: 6vh
+ 
+}
+
+.mini__img:nth-of-type(3){
+  @include imgSet("../img/fw4.jpg");
+  margin-bottom: 6vh
+
+ 
+}
+
+.mini__img:nth-of-type(4){
+  @include imgSet("../img/fw5.jpg");
+  margin-bottom: 6vh
+
+  
+}
+
+// MODALS
+
+.modal1__img{
+    @include imgSet("../img/fw1.jpg")
+}
+
+.modal2__img{
+  @include imgSet("../img/fw2.jpg")
+}
+.modal3__img{
+  @include imgSet("../img/fw3.jpg")
+}
+.modal4__img{
+  @include imgSet("../img/fw4.jpg")
+}
+.modal5__img{
+  @include imgSet("../img/fw5.jpg")
+}
+
+
+
+// MANAGEMENT TEAM SECTION
+
+.managementTeam{
+
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+.managementTeam__card{
+  border: 0.5px solid lighten($darkGrey, 50);
+}
+
+.card__img1{
+  @include imgSet("../img/managementTeam1.png");
+  
+  
+}
+.card__img2{
+  @include imgSet("../img/managementTeam2.png");
+  
+}
+.card__img3{
+  @include imgSet("../img/managementTeam3.png");
+
+  
+}
+.card__img4{
+  @include imgSet("../img/managementTeam4.png");
+
+}
+
+
+// PARALLAX SECTION
+
+.parallax{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),url(../img/tractor.png);
+    background-size: auto;
+    background-attachment: fixed;
+    margin-top: 10vh;
+    padding: 15vh 10vw;
+
+    
+}
+
+
+// CAROUSEL SECTION
+
+.carouselBlock{
+    margin-bottom: 15vh;
+    margin-top: 25vh;
+}
+
+
+// FOOTER
+
+
+
+.footer__top{
+
+  h2{
+    text-align: center;
+
+}
+
+    button{
+      padding: 12px 36px;
+      display: block;
+      border: none;
+
+    }
+}

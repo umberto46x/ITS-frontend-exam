@@ -1,0 +1,94 @@
+
+
+// NAVBAR
+
+.nav__button1,.nav__button2{
+
+    color: $black;
+
+   
+}
+
+.navbar-collapse a{
+    color: $grey;
+}
+
+// HERO
+.header__hero{
+    
+    color: white;
+
+    button{
+        background-color: $orange;
+        color: white;
+
+    }
+
+
+}
+
+
+// ANCHOR LINK GO UP
+
+.goUp{
+    background-color: $orange;
+
+    
+}
+
+// SERVICES
+
+.service__icon{
+
+    background-color: $pink;
+    
+    svg{
+        color: $orange;
+    }
+}
+
+
+
+// VIDEO SECTION & FEATURED WORKS SECTION 
+// & PARALLAX SECTION
+
+
+
+.videoSection,.parallax,.modal-footer{
+
+    
+
+    button{
+        background-color: $orange;
+        border: none;
+    }
+}
+
+// FOOTER
+
+.footer{
+    background-color: $footerBlack;
+
+    hr{
+        color: $footerGrey;
+    }
+
+    .footer__top{
+
+
+        button{
+            background-color: white;
+        }
+    }
+
+    .footer__middle{
+        .dropdown-menu{
+            background-color: $footerBlack;
+        }
+
+        button{
+            background-color: $footerSubmit;
+            
+        }
+    }
+}
